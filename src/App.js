@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import SoundBoard from "./SoundBoard";
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import library from "./library.json";
+import React, { Component } from 'react'
+import SoundBoard from './SoundBoard'
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+import library from './library.json'
 
 class App extends Component {
   render() {
@@ -20,8 +20,8 @@ class App extends Component {
           <Route path="/:name" component={SoundBoard} />
         </>
       </Router>
-    );
+    )
   }
 }
 
-export default App;
+export default App
